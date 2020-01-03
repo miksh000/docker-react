@@ -8,8 +8,4 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/Zhopa React1/i);
-  expect(linkElement).toBeInTheDocument();
-});
+
